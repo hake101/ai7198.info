@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <head>
+        <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <title>ai7198.info</title>
+    </head>
+    <body>
+        <div id="intro">
+        <h1>Welcome to ai7198.info</h1>
+        <p>Your stop and place to read about <strong>Ayaan Husain</strong> and his things that he might be working on.</p>
+        </div>
+
+        <div id="sitemap">
+        <h2>Other parts of the site</h2>
+        <!-- Insert links to other parts of the website here -->
+        <!-- include games, songs, movies, tv series, and more to think about -->
+         <li><a href="Games/games.html">Games</a></li>
+         <li><a href="Tables of all kinds/table.html">Tables</a></li>
+         <li><a href="Forms/forms.html">Give me your personal information</a></li>
+        </div>
+        <div id="blog">
+        <h2>Random things I want to share</h2>
+        <figure>
+            <img src="media/wow.png" alt="My ranking of System of a Down music videos that my friend forced me to make" width="600" height="383" />
+            <figcaption><a href="https://youtu.be/bE2r7r7VVic" target="_blank"><i>Boom!</i>'s music video</a> is unenjoyable but is true</figcaption>
+        </figure>
+        <p id="costco">I need a <strong>Costco</strong> hotdog and some <i>Pepsi</i> branded drinks rn</p>
+        </div>
+        <div style="width:40px; height:40px; position:absolute; bottom:0px; right:0px;">
+            <div id="winamp-container"></div>
+            <script>
+        const Winamp = window.Webamp;
+        const webamp = new Webamp({
+            initialTracks: [
+                {
+                    metaData: {
+                        artist: "System of a Down",
+                        title: "The Highway Song",
+                    },
+                    url: "https://files.catbox.moe/3i6bia.mp3",
+                }, {
+                    metaData: {
+                        artist: "Sam Haft",
+                        title: "You Will Be Okay (Stolas' Lullaby)",
+                    },
+                    url: "https://files.catbox.moe/mn5khs.mp3",
+                },
+                {
+                    metaData: {
+                        artist: "blink-182",
+                        title: "Go",
+                    },
+                    url: "https://files.catbox.moe/2h48f6.mp3",
+                },
+              ],
+            },
+        );
+        webamp.renderWhenReady(document.getElementById('winamp-container'));
+        </script>
+        </div>
+    </body>
+</html>
