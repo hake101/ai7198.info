@@ -1,13 +1,16 @@
 <!DOCTYPE html>
+<html>
     <head>
+        <link href="forms.css" type="text/css" rel="stylesheet"/>
         <title>Give me your personal data</title>
     </head>
     <body>
+        <div id="header">
         <h1>Give me your personal data</h1>
         <h6>/s ofc</h6>
-        <hr>
+        </div>
         <form>
-        <fieldset>
+            <div id="main">
             <legend>Your information which I need</legend>
             <label>What's ya name Sonny? </label><input type="text" name="name" size="15" maxlength="60"/>
             <br>
@@ -23,8 +26,8 @@
             </select>
             <br>
             <label>Speaking of emails, what's your email? </label><input type="email" name="email" size="15" maxlength="60">
-        </fieldset>
-        <fieldset>
+            </div>
+            <div id="lastfm">
             <legend><a href="last.fm" target="_blank">last.fm</a></legend>
             <br>
                 <label>Do you know what <a href="last.fm" target="_blank">last.fm</a> is? </label> 
@@ -37,9 +40,10 @@
                 I want you to send me an <strong>mp3</strong> of your favorite song. Please?
                 <br>
                 <input type="file" name="favorite-song" />
-        </fieldset>
-        <input type="submit" name="email" value="Give me your details so I can sell it to make money and then eventually get sued for it"/>
-        <hr>
+            </div>
+            <div id="submit">
+            <input type="submit" name="email" value="Give me your details so I can sell it to make money and then eventually get sued for it"/>
+            </div>
         </form>
         <a href="../index.html">Go Back</a>
         <p><sup>1</sup>That's if you have one</p>
