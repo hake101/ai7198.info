@@ -5,18 +5,13 @@ h1 {
     font-size: 50px;
     color: #0004ff;
     letter-spacing: 0.35cm;
-    font-family: monospace;
 }
 h2 {
     color: #1a85ef;
-    font-family: monospace;
     font-size: 30px;
 }
 h3 {
     text-align: left;
-}
-p {
-    font-family: monospace
 }
 body {
     background-color: #9A94BC;
@@ -52,34 +47,40 @@ div#Musiclikey {
     padding: 10px;
     text-align: center;
 }
-#recommend {
+div#Musiclikey p {
     text-align: left;
+    color:#0004ff;
+}
+div#Musiclikey h3 {
+    color: #001e3d
+}
+#recommend {
     width: auto;
     height: auto;
     padding-left: 10px;
+    padding-right: 10px
 }
 #listen {
-    text-align: right;
     width: auto;
     padding-left: 10px;
+    padding-right: 10px;
     height: auto;
 }
 #rant {
-    text-align: center;
     width: auto;
     padding-left: 10px;
+    padding-right: 10px;
     height: auto;
 }
-#Musiclikey p {
-    color: black;
-    font-family: monospace;
-}
 #disclaimer {
-    font-size: small;
+    font-size: large;
+    color:rgb(100, 8, 114)
 }
 #descriptionmusic {
     padding-bottom: 5px;
     border-bottom: 2px solid black;
+    font-size: large;
+    color: #0963bd;
 }
 a:link {
     color: blue;
