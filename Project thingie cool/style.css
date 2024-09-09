@@ -17,21 +17,24 @@ body {
     background-color: #9A94BC;
     line-height: 0.75cm;
 }
-div#intro {
+header {
+    text-align: center;
     border: 3px solid black;
     border-bottom: 2px solid black;
-    text-align: center;
+    width: auto;
 }
-div#sitemap {
-    border: 3px solid black;
-    border-top: 1px solid black;
-    float: none;
-    height: auto;
-    clear: none;
-    text-align: center;
-    padding-bottom: 5px;
-    border-bottom: 2px solid black;
+nav {
+    border-top: 2px solid black;
 }
+nav, footer {
+    clear: both;
+}
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 0px;}
+nav li {
+    display: inline;
+    margin-right: 40px;}
 div#blog {
     border: 3px solid black;
     border-top: 1px solid black;
@@ -93,4 +96,12 @@ a:visited {
 a:hover {
     color: green;
     text-decoration: underline;
+}
+img.align-right {
+    float: right;
+}
+img.align-left {
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
 }

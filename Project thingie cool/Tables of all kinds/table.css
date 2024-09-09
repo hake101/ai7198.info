@@ -50,3 +50,12 @@ div#mobiledata th:hover {
     background-color: transparent;
     color: #3c12d2;
 }
+a:link {
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: green;
+}
